@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do 
   gem 'sqlite3', '1.3.5'
@@ -25,6 +26,7 @@ group :development, :test do
   gem 'libnotify', '0.5.9'
   gem 'guard-spork', '~> 0.3.2'
   gem 'spork', '~> 0.9'
+  gem 'annotate', '~> 2.4.1.beta'
 end 
 
 group :production do 
